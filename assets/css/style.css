@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  background-color: #fff8f3;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+  color: rgb(63, 63, 63);
+}
+.selection {
+  margin-top: 40px;
+  text-align: center;
+}
+#howmany {
+  height: 30px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.field {
+  margin-top: 20px;
+}
+#boxquantity {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  text-align: center;
+}
+.btn button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+}
+.btn button:hover {
+  background-color: rgb(63, 63, 63);
+  color: #fff;
+}
+.result {
+  padding-top: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (max-width: 476px) {
+  body {
+    width: 90%;
+    margin: auto;
+  }
+  #howmany {
+    width: 80%;
+    margin: auto;
+  }
+  #boxquantity {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+/* DARK MODE */
+/* @media (prefers-color-scheme: dark) {
+  * {
+    background-color: #9F5F80;
+    color: #fff;
+  }
+  .heading {
+    color: #fff;
+  }
+  input[type="number"] {
+    border: 1px solid#fff;
+    color: #fff;
+  }
+  ::placeholder {
+    color: #fff;
+    opacity: 0.5;
+  }
+  button{
+      background-color: #BFA2DB;
+      border: 1px solid #BFA2DB;
+  }
+  .btn button:hover {
+  background-color: #BFA2DB;
+  color: #fff;
+}
+} */
