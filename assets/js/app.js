@@ -2,7 +2,7 @@ $(document).ready(function () {
   $("#howmany").change(function () {
     $("#boxquantity input").remove();
     $("#boxquantity label").remove();
-    // $("#r1 p").remove();
+
 
     for (i = 0; i < $("#howmany").val(); i++) {
       $("boxquantity").append('<label for="fname">First name:</label>');
@@ -15,8 +15,11 @@ $(document).ready(function () {
           ']" placeholder="Enter the contribution" style="margin: 10px; padding: 10px; width: 100%; border-radius: 5px;" name="array[]"/>'
       );
     }
+    result.innerHTML = "";
   });
 });
+
+
 
 function run() {
   var n = document.getElementById("howmany").value;
@@ -39,7 +42,7 @@ function run() {
     var bal_value = spent_Val[k] - total;
     bal.push(bal_value);
   }
-
+  result.innerHTML = " ";
   for (var t = 0; t < bal.length; t++) {
     result.innerHTML += "Person " + t + " balance = " + bal[t] + ".<br />";
   }
