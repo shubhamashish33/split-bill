@@ -56,6 +56,12 @@
   padding-top: 20px;
   font-weight: 400;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 476px) {
   body {
@@ -69,6 +75,9 @@
   #boxquantity {
     width: 60%;
     margin: auto;
+  }
+  a{
+    text-decoration: none;
   }
 }
 
