@@ -1,5 +1,5 @@
 # Split-Bill
-Bill Spliting App to equally distribute your contribution among your friends. Simple and minimal web app all you need to get away from that hasel of spliting bills.
+Bill Splitting App to equally distribute your contribution among your friends. A simple and minimal web app is all you need to get away from that hassle of splitting bills.
 
 [Visit Here🚀](https://shubhamashish33.github.io/split-bill/)
 
